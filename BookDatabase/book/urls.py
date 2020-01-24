@@ -12,8 +12,7 @@ urlpatterns = [
     path('search/',views.search, name = 'search' ),
     path('search/searchdata/', views.searchdata, name='searchdata' ),
     path('signup/', views.signup_part),
-    path('login/', views.login_part),
-    path('deny/', views.danger),
+    path('login/', views.login_part)
 ]
 
 if DEBUG:
