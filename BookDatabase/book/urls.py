@@ -11,7 +11,8 @@ urlpatterns = [
     path('delete/<int:book_id>', views.delete_book),
     path('search/',views.search, name = 'search' ),
     path('search/searchdata/', views.searchdata, name='searchdata' ),
-   
+    path('signup/', views.signup_part),
+    path('login/', views.login_part)
 ]
 
 if DEBUG:

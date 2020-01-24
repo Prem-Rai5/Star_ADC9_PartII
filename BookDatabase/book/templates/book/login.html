@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>LOGIN</title>
+</head>
+<body>
+    <h1>LOGIN</h1>
+    <form method="POST">
+        {% csrf_token %}
+    <table>
+		<tr>
+			<td>
+				Name:
+			</td>
+			<td>
+				<input type="text" placeholder="Enter the user name" name="input_Username">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Password:
+			</td>
+			<td>
+				<input type="Password" placeholder="Password" name="input_Password">
+			</td>
+		</tr>
+		
+		
+		
+	</table>
+    <input type="submit"> 
+    
+</form>
+</body>
+</html>
