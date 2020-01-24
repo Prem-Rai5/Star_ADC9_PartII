@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Secret</title>
+</head>
+<body>
+    
+    {% if request.user.is_authenticated %}
+    <h1>You are in recticted page</h1>
+    {%endif%}
+</body>
+</html>
