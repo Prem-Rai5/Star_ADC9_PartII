@@ -80,6 +80,8 @@ def login_part(request):
         else:
             return HttpResponse('invalid crenditals')
 
+def logout(request):
+    return render(request,"book/login.html")
 
 def danger(request):
     if request.method == "GET":

@@ -14,6 +14,7 @@ urlpatterns = [
     path('signup/', views.signup_part),
     path('login/', views.login_part),
     path('deny/', views.danger),
+    path('logout/',views.logout)
 ]
 
 if DEBUG:
