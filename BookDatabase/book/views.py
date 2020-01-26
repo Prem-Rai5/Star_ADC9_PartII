@@ -79,3 +79,8 @@ def login_part(request):
 
         else:
             return HttpResponse('invalid crenditals')
+
+def logoutUser(request):
+    logout(request)
+    return render(request,'login.html')
+
