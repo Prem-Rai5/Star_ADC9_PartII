@@ -1,6 +1,6 @@
 from django.test import TestCase
 from .models import Book,member,Bill,Transaction
-# Create your tests here.
+
 class Setup_class(TestCase):
 
 
